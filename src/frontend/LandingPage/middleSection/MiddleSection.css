@@ -1,0 +1,24 @@
+.sectionMain {
+  height: 260px;
+  background-color: #143059;
+  margin-top: 30px;
+}
+
+.between {
+  padding: 100px 0;
+  background-color: #143059;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.btn-trial {
+  margin-left: -97px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}

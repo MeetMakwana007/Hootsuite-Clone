@@ -1,0 +1,164 @@
+.main-div {
+  margin-top: 60px;
+  display: flex;
+}
+
+.image > img {
+  /* width: fit-content;
+  height: fit-content;
+   */
+  margin-left: 70px;
+}
+
+.content {
+  margin-left: 101px;
+  float: left;
+  height: fit-content;
+  width: 400px;
+}
+
+.content-main {
+  width: 60%;
+}
+.content > h1 {
+  float: left;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.spanText {
+  white-space: pre-line;
+}
+.content-below > p {
+  float: left;
+  margin-top: 30px;
+  margin-top: -20px;
+}
+.content-below {
+  margin-left: 101px;
+  margin-top: 180px;
+  height: 100px;
+  text-align: left;
+  font-size: 25px;
+  /* float: left; */
+  /* background-color: blue; */
+}
+
+.btn-lg {
+  /* margin-left: -100px; */
+  margin-top: 30px;
+}
+.trial-button {
+  text-align: left;
+  margin-left: 101px;
+}
+
+.learn-more {
+  text-align: left;
+  margin-left: 101px;
+}
+
+.btnText {
+  padding: 20px;
+  font-size: 30px;
+}
+
+@media (max-width: 700px) {
+  .image {
+    width: 60%;
+  }
+  .image > img {
+    margin-left: 0px;
+    width: 200px;
+  }
+
+  .trial-button {
+    margin-top: 80px;
+    margin-left: -40px;
+  }
+
+  .learn-more {
+    margin-left: -460px;
+  }
+
+  .content-below {
+    margin-left: 20px;
+    width: 100%;
+    margin-top: 180px;
+    height: 100px;
+    text-align: left;
+    font-size: 14px;
+    /* float: left; */
+    /* background-color: blue; */
+  }
+
+  .btnText {
+    font-size: small;
+    padding: 0;
+  }
+
+  .content {
+    /* margin-left: 121px; */
+    float: left;
+    height: fit-content;
+    width: 400px;
+  }
+
+  .content > h1 {
+    /* float: left; */
+    /* margin-left: 70px; */
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .trial-button {
+    margin-top: 0px;
+    font-size: small;
+  }
+
+  .learn-more {
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image {
+    width: 80%;
+  }
+
+  .image > img {
+    margin-left: 0px;
+    width: 300px;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+  .content > h1 {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  .content-below {
+    font-size: large;
+    margin-left: 0;
+    margin-top: 130px;
+  }
+  .trial-button {
+    margin-left: 0px;
+    width: 200px;
+  }
+
+  .btnText {
+    font-size: 19px;
+  }
+
+  .learn-more {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .content > #two {
+    margin-top: 20px;
+  }
+}

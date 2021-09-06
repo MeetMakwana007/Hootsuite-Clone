@@ -1,0 +1,10 @@
+.btnColor {
+  background-color: rgb(64, 209, 28);
+}
+
+@media (max-width: 540px) {
+  .stnow {
+    margin-top: 30px;
+    margin-left: -125px;
+  }
+}

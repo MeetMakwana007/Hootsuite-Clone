@@ -1,0 +1,16 @@
+footer {
+  height: 543px;
+  background-color: black;
+  margin-top: 120px;
+}
+
+.footer-main {
+  
+  padding: 0 72px;
+  background-color: #fff;
+}
+
+.footer-li {
+    margin: 0 219px;
+    padding: 72px 12px 0 72px;
+}
