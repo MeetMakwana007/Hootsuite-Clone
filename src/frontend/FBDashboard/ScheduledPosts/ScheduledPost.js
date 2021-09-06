@@ -6,16 +6,16 @@ export const ScheduledPost = () => {
   const pageAccessToken = localStorage.getItem("pageAccessToken");
 
   const getScheduledPostsAPI = () => {
-     fetch(
-      `https://graph.facebook.com/v11.0/${pageID}/scheduled_posts?access_token=${pageAccessToken}`,
-
+    fetch(
+      `https://graph.facebook.com/v11.0/${pageID}/scheduled_posts?access_token=${pageAccessToken}`
     )
-    .then((resp) => console.log("resp",resp)).catch(err=>console.log(err));
+      .then((resp) => console.log("resp", resp))
+      .catch((err) => console.log(err));
   };
 
   useEffect(() => {
     getScheduledPostsAPI();
-  }, [getScheduledPostsAPI])
+  }, [getScheduledPostsAPI]);
 
   return (
     <div>
