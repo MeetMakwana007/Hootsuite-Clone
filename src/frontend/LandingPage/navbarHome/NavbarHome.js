@@ -46,7 +46,7 @@ function NavbarHome() {
             </NavItem>
           </Nav>
 
-          <div className="float-end" style={{ width: "100%" }}>
+          <div className="float-end" >
             <button
               className="btn btn-primary loginBtn float-right"
               onClick={() => history.push("/login")}

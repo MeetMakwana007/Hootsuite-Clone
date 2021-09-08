@@ -18,8 +18,8 @@ function Login() {
 
   const dispatch = useDispatch();
 
-  const [email, setEmail] = useState("test@test.com");
-  const [password, setPassword] = useState("Test@1234");
+  const [email, setEmail] = useState("hoot@hoot.com");
+  const [password, setPassword] = useState("Hoot@123");
 
   const loginSuccess = () => {
     dispatch(login(email));

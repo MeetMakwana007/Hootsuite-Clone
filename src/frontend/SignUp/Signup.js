@@ -47,14 +47,15 @@ function Signup() {
     if (password === cpassword) {
       await axios
         .post("/signup", registered)
-        .then((response) => console.log(response.data))
+        .then((response) => {
+          console.log(response.data);
+          history.push("/login");
+        })
         .catch((err) => console.log(err));
-      history.push("/login");
     } else {
       alert("Both Password must be matched, Try again");
       setCpassword("");
     }
-    
   };
 
   return (

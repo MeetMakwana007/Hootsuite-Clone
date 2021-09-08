@@ -4,10 +4,10 @@ import "./FBCommonLayout.css";
 
 function FBCommonLayout(props) {
   return (
-    <div>
+    <div className='FB'>
       <div className="mainDiv">
         <div style={{ textAlign: "center" }}>
-          <div style={{padding: "10px 0",
+          <div style={{padding: "10px 0",borderRadius: '25px 25px 0 0',
               backgroundColor: 'lightgrey'}}>
           <div
             style={{
